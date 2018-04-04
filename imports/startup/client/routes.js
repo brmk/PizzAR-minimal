@@ -59,13 +59,13 @@ FlowRouter.route('/', {
 
 // not found template
 
-FlowRouter.notFound = {
-	action() {
-		mount(App, {
-			main: (<NotFound />)
-		});
-	}
-};
+// FlowRouter.notFound = {
+// 	action() {
+// 		mount(App, {
+// 			main: (<NotFound />)
+// 		});
+// 	}
+// };
 
 const scrollTop = () =>{
 	$(window).scrollTop(0)
