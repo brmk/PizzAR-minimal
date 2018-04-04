@@ -2,7 +2,7 @@
 rm -rf ./.build
 
 # build apps
-meteor build ./.build --server https://pizzar-brmk.herokuapp.com --mobile-settings ./settings-production.json
+meteor build ./.build --server https://pizzar-brmk.herokuapp.com --mobile-settings ./settings.json
 
 # sign android app using private key
 # jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 ./.build/android/release-unsigned.apk pestle -keystore ./.bin/pestle.keystore

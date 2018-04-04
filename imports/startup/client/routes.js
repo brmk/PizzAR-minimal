@@ -9,6 +9,7 @@ import Home from '../../ui/pages/Home';
 import Menu from '../../ui/pages/Menu';
 import Cart from '../../ui/pages/Cart';
 import Builder from '../../ui/pages/Builder';
+import PrivacyPolicy from '../../ui/pages/PrivacyPolicy';
 
 
 // FlowRouter.route('/', {
@@ -29,6 +30,16 @@ FlowRouter.route('/', {
 	}
 });
 
+
+FlowRouter.route('/privacy-policy', {
+	name: 'PrivacyPolicy',
+	action() {
+		mount(App, {
+			main: (<PrivacyPolicy />)
+		});
+	}
+});
+// 
 // FlowRouter.route('/menu', {
 // 	name: 'Menu',
 // 	action() {
