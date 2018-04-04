@@ -1,0 +1,67 @@
+.Home {
+  .page__background{
+    background-position: center;
+    background-size: cover;
+    background-image: url("/img/bg.jpg") !important;
+  }
+  .page__content{ 
+    padding: 10px;
+    display: flex;
+    .card {
+      vertical-align: middle;
+      display: inline-block; 
+      margin: auto;
+      background: rgba(255,255,255,0.7) !important;
+      .brand-logo {
+        margin-bottom: 30px;
+        display: inline-block;
+        max-width: 100%;
+        height:auto;
+
+      }
+
+    }
+  }
+}
+
+.img-responsive {
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+.active {
+  background-color: #009588;
+  border-radius: 50%;
+}
+
+.size-label {
+  background-color: transparent;
+  color: black;
+  padding: 4px 8px;
+  width: 34px;
+  display: inline-block;
+  border-radius: 50%;
+  margin:0 5px;
+  text-align: center;
+  &.active {
+    background-color: #009588;
+    color: white;
+  }
+}
+
+.pizza-price {
+  display: inline-block;
+  width: 80px;
+  background: #009588;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  right: 35px;
+  line-height: 40px;
+}
+
+.tutorial p {
+  font-size: 20px;
+  margin:10px 0;
+}
